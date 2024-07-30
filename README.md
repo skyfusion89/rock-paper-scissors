@@ -25,12 +25,13 @@ Ensure you have the following installed:
 
 - **Ruby**: 2.6.6 (Install using RVM or rbenv)
 - **Bundler**: To manage gem dependencies
+- **Yarn**: For managing JavaScript dependencies
 
 ## Installation
 
 1. **Clone the Repository**:
    ```
-   git clone https://github.com/skyfusion89/rock-paper-scissors.git
+   git clone https://github.com/your-username/rock-paper-scissors.git
    cd rock-paper-scissors
    ```
 
@@ -38,6 +39,7 @@ Ensure you have the following installed:
    ```
    gem install bundler
    bundle install
+   yarn install
    ```
 
 ## Running the Application
@@ -77,6 +79,10 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 4. Commit your changes (`git commit -am 'Add new feature'`).
 5. Push to the branch (`git push origin feature-branch`).
 6. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
