@@ -1,0 +1,29 @@
+<div class="result-screen">
+  <h1>RESULT OF THE GAME</h1>
+
+  <div class="result-container">
+    <div class="result-box">
+      <%= image_tag("#{@user_choice}.svg", class: 'result-image') %>
+      <p>Your choice</p>
+    </div>
+
+    <div class="result-box">
+      <%= image_tag("#{@server_choice}.svg", class: 'result-image') %>
+      <p>Server's choice</p>
+    </div>
+  </div>
+
+  <div class="outcome-message">
+    <% if @result == :user %>
+      <p>Congratulations! You won!</p>
+    <% elsif @result == :server %>
+      <p>Sorry! You lost!</p>
+    <% else %>
+      <p>It's a tie!</p>
+    <% end %>
+  </div>
+
+  <div class="retry-button">
+    <%= link_to 'Play Again', root_path, class: 'button-link' %>
+  </div>
+</div>

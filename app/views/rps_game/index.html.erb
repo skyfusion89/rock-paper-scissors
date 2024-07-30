@@ -1,0 +1,34 @@
+<div class="game-container">
+  <h1> ROCK – PAPER – SCISSORS </h1>
+
+  <p class="game-description">
+    Rock Paper Scissors is a zero sum game that is usually played by two people using their hands and no tools.
+    The idea is to make shapes with an outstretched hand where each shape will have a certain degree
+    of power and will lead to an outcome. In addition, hammer is added.
+    Hammer is a variation of rock that can beat both scissors and paper, but loses to rock.
+  </p>
+
+  <p class="bet-selection"> CHOOSE YOUR MOVE </p>
+
+  <div class="options-container">
+    <%= link_to result_rps_path(id: 'rock'), class: 'option-link' do %>
+      <%= image_tag('rock.svg', class: 'option-image') %>
+      <div class="option-label">Rock</div>
+    <% end %>
+
+    <%= link_to result_rps_path(id: 'paper'), class: 'option-link' do %>
+      <%= image_tag('paper.svg', class: 'option-image') %>
+      <div class="option-label">Paper</div>
+    <% end %>
+
+    <%= link_to result_rps_path(id: 'scissors'), class: 'option-link' do %>
+      <%= image_tag('scissors.svg', class: 'option-image') %>
+      <div class="option-label">Scissors</div>
+    <% end %>
+
+    <%= link_to result_rps_path(id: 'hammer'), class: 'option-link' do %>
+      <%= image_tag('hammer.svg', class: 'option-image') %>
+      <div class="option-label">Hammer</div>
+    <% end %>
+  </div>
+</div>

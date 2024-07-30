@@ -1,0 +1,101 @@
+// General Styles
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #36006C;
+  }
+  
+  h1 {
+    /* Layout Properties */
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #36006C;
+  }
+  
+  // Index Page Styles
+  .game-container {
+    text-align: center;
+  }
+  
+  .game-description {
+    margin: 50px auto;
+    width: 70%;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #000;
+    opacity: 0.7;
+  }
+  
+  .bet-selection {
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  
+  .options-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 70%;
+  }
+  
+  .option-link {
+    text-decoration: none;
+  }
+  
+  .option-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .option-label {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  // Result Page Styles
+  .result-screen {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .result-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 70%;
+  }
+  
+  .result-box {
+    text-align: center;
+  }
+  
+  .result-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .outcome-message {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .retry-button {
+    margin-top: 30px;
+  }
+  
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #36006C;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  

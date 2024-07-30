@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .a { fill: #ffe9ba; }
+      .b { fill: #75a8ed; }
+      .c { fill: #333333; }
+    </style>
+  </defs>
+  <g transform="translate(0)">
+    <rect x="26" y="20" width="12" height="32" class="b" /> <!-- Hammer handle -->
+    <rect x="18" y="12" width="28" height="10" class="c" /> <!-- Hammer head -->
+    <rect x="22" y="8" width="20" height="4" class="c" /> <!-- Hammer top -->
+    <rect x="30" y="32" width="4" height="18" class="a" /> <!-- Handle highlight -->
+  </g>
+</svg>
